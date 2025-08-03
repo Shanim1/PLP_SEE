@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Martin Mwangi - Biomedical/Software Engineer</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f6f9fa;
+      margin: 0;
+      padding: 0 5vw;
+      color: #232b2b;
+    }
+    h1, h2, h3, h4 {
+      color: #204080;
+      margin-bottom: 0.5em;
+    }
+    .nav {
+      display: flex;
+      justify-content: center;
+      gap: 1em;
+      flex-wrap: wrap;
+      margin: 1em 0;
+    }
+    .nav button {
+      padding: 0.5em 1em;
+      background: #204080;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+    .nav button:hover {
+      background: #163060;
+    }
+    .header-divider {
+      border: none;
+      border-top: 2px solid #204080;
+      margin: 1em 0 1.5em 0;
+    }
+    .section {
+      background: #fff;
+      padding: 1.2em 1.5em;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px #d0dae9;
+      margin: 2em 0;
+    }
+    ul {
+      padding-left: 1.5em;
+    }
+    a {
+      color: #1b6ee8;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .project-box {
+      background: #f5f5fb;
+      padding: 1em;
+      border-radius: 8px;
+      margin: 0.5em 0;
+      font-family: monospace;
+      white-space: pre-wrap;
+    }
+    .contact-form form {
+      display: flex;
+      flex-direction: column;
+      gap: 1em;
+    }
+    .contact-form input, .contact-form textarea {
+      padding: 0.8em;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 1em;
+    }
+    .contact-form button {
+      background-color: #204080;
+      color: #fff;
+      border: none;
+      padding: 0.8em;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    .contact-form button:hover {
+      background-color: #1a366b;
+    }
+    @media (max-width: 650px) {
+      body {
+        padding: 0 2vw;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1 data-aos="fade-down">Martin Mwangi</h1>
+  <h2 data-aos="fade-down" data-aos-delay="100">Biomedical/Software Engineer</h2>
+  <hr class="header-divider" />
+
+  <div class="nav">
+    <button onclick="scrollToSection('summary')">Summary</button>
+    <button onclick="scrollToSection('skills')">Skills</button>
+    <button onclick="scrollToSection('certifications')">Certifications</button>
+    <button onclick="scrollToSection('experience')">Experience</button>
+    <button onclick="scrollToSection('education')">Education</button>
+    <button onclick="scrollToSection('projects')">Projects</button>
+    <button onclick="scrollToSection('contact')">Contact</button>
+  </div>
+
+  <div class="section" id="summary" data-aos="fade-left">
+    <h3>Professional Summary</h3>
+    <p>
+      Dedicated biomedical engineer with 2+ years’ experience in installations, repairs, calibration,
+      and preventive maintenance of medical equipment. Skilled in electromechanical troubleshooting,
+      software engineering for device interfacing and diagnostics, ISO compliance, Safe Care standards,
+      and quality audits. Proficient in Python programming, front-end development (HTML, CSS, JavaScript),
+      and back-end development (Python, Flask, MySQL)—bringing a tech-driven approach to problem-solving.
+      Detail-oriented, organized, and an effective communicator committed to safety, performance, and innovation.
+    </p>
+  </div>
+
+  <div class="section" id="skills" data-aos="fade-up">
+    <h3>Skills</h3>
+    <ul>
+      <li>Biomedical Equipment Maintenance</li>
+      <li>Software Development (Python, C++, MySQL)</li>
+      <li>Front-end Development (HTML, CSS, JavaScript)</li>
+      <li>Electromechanical Troubleshooting</li>
+      <li>ISO Compliance and Quality Audits</li>
+      <li>Safe Care Standards</li>
+      <li>Effective Communication</li>
+      <li>Problem Solving</li>
+      <li>Detail-oriented and Organized</li>
+      <li>Team Collaboration</li>
+    </ul>
+  </div>
+
+  <div class="section" id="certifications" data-aos="zoom-in">
+    <h3>Certifications</h3>
+    <ul>
+      <li>Certified Biomedical Equipment Technician (CBET)</li>
+      <li>ISO 13485:2016 Internal Auditor</li>
+      <li>Basic Life Support (BLS)</li>
+      <li>Software Engineering</li>
+    </ul>
+  </div>
+
+  <div class="section" id="experience" data-aos="fade-right">
+    <h3>Professional Experience</h3>
+    <h4>Biomedical Intern, Kijabe Mission Hospital</h4>
+    <p><b>June 2022 - Present</b><br />
+      - Assisted in the installation, calibration, and preventive maintenance of medical equipment.<br />
+      - Conducted routine inspections and troubleshooting of electromechanical systems.<br />
+      - Collaborated with healthcare professionals to ensure compliance with Safe Care standards.<br />
+      - Participated in quality audits and contributed to ISO compliance initiatives.<br />
+      - Developed software tools for device interfacing and diagnostics using Python and Flask.<br />
+      - Engaged in continuous learning to stay updated with the latest biomedical technologies.
+    </p>
+    <h4>Software Engineer Intern, Tech Innovations Ltd</h4>
+    <p><b>January 2022 - May 2022</b><br />
+      - Developed and maintained web applications using HTML, CSS, and JavaScript.<br />
+      - Assisted in database management and back-end development with MySQL.<br />
+      - Collaborated with cross-functional teams to deliver software solutions on time.<br />
+      - Engaged in code reviews and contributed to improving software quality.
+    </p>
+  </div>
+
+  <div class="section" id="education" data-aos="fade-left">
+    <h3>Educational Background</h3>
+    <b>Diploma in Medical Engineering</b> <i>2019 Sep - 2023 Aug</i><br />
+    <a href="#">Download My CV</a>
+  </div>
+
+  <div class="section" id="projects" data-aos="flip-up">
+    <h3>Projects</h3>
+    <h4>Python Calculator</h4>
+    <p>A simple calculator in Python that adds, subtracts, multiplies, or divides two numbers:</p>
+    <div class="project-box">
+<pre>
+def calculator():
+    op = input("Enter operation (+, -, *, /): ")
+    a = float(input("First number: "))
+    b = float(input("Second number: "))
+    if op == '+':
+        return a + b
+    elif op == '-':
+        return a - b
+    elif op == '*':
+        return a * b
+    elif op == '/':
+        return a / b
+    else:
+        return "Invalid operation"
+
+print("Result:", calculator())
+</pre>
+    </div>
+  </div>
+
+  <div class="section contact-form" id="contact" data-aos="fade-up">
+    <h3>Contact Me</h3>
+    <form action="mailto:shanimmartin1@gmail.com" method="POST" enctype="text/plain">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script>
+    AOS.init({ duration: 1000 });
+    function scrollToSection(id) {
+      const el = document.getElementById(id);
+      if (el) el.scrollIntoView({ behavior: 'smooth' });
+    }
+  </script>
+</body>
+</html>
+
